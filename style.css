@@ -1,0 +1,168 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-position: top center;   
+    background-color: #050e17;
+}
+
+ul.navbar  {
+    list-style-type: none;
+    margin-bottom: 700px;
+    margin-left: 300px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    animation-name: rise;
+    animation-duration: 1s;
+    animation-delay: ;
+    animation-fill-mode: forwards;
+    position: sticky;
+    top:25px;
+  }
+ul.navbar li {
+    float: left;
+    margin: 30px;
+    text-align: center;
+}  
+ul.navbar li a {
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    
+    padding: 14px 16px;
+}
+ul.navbar img {
+    margin-right: 30px;
+}
+ul.navbar a:hover {
+    color:#e9c966;
+}
+
+@keyframes drop {
+    100%{margin-top: 124px;}
+
+}
+
+@keyframes rise {
+    100%{margin-bottom: 500px;}
+}
+  @keyframes slide {
+      0%{opacity: 0;}
+      25%{opacity: 0;}
+      50%{opacity: 0;}
+      75%{opacity: 0.5;}
+      100%{opacity: 1;}
+  }
+  div.div1 {
+      position: absolute;
+      top: 20%;
+      left:3%;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 40px;
+      color: white;
+      
+  }
+p.p1 {
+    animation-name: slide;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+p.p2 {
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+p.p3 {
+    animation-name: slide;
+    animation-duration: 7.5s;
+    animation-fill-mode: forwards;
+}
+p.p4 {
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+div.div2 a img {
+    width: 42px;
+    height: 40px;
+    margin: 10px;
+}
+.div2 {
+position: absolute;
+top:30px;
+right: 15px;
+
+animation-name: line;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}
+@keyframes line {
+   0%{
+    border-bottom:  3px  white ;
+    border-radius: 20px;
+    border-style: none;
+    }
+    50%{
+        border-bottom:  3px white ;
+        border-radius: 20px;
+        border-style: dotted;
+    }
+    100% {border-bottom:  3px solid white ;
+        border-radius: 20px;;}
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    
+}
+td {
+    padding: 20px;
+    
+}
+th {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    background-color: #8a663d;
+    border-right: 15px solid rgb(255, 255, 255);
+    border-left:15px solid white;
+}
+.div3{
+    background-image: url("dark-hexagonal-background-with-gradient-color_79603-1410.jpg");
+}
+.div4 {
+    margin: 10px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: 25px;
+}
+h2 {
+    font-size: 35px;
+    display: inline;
+    padding: 4px;
+    background-color: rgb(107, 51, 5);
+    border-left:8px solid white;
+    border-bottom:  8px solid white;
+}
+div.div4 ul  li {
+    margin: 10px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: 
+    25px;
+}
+div.div5 p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
